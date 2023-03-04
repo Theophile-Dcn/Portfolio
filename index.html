@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/signpainter" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Chez Estela</title>
+</head>
+<body>
+    <nav class="navbar">
+        <button class="menu-button menu-hamburger">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>  
+            <p>menu</p>
+        </button>
+        <a href="tel:+33618817214" class="number"><p>06 18 81 72 14</p><img src="picture/Telephone.png" alt="icône téléphone"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#variete">variétés cultivées</a></li>
+                <li><a href="#avis">Avis</a></li>
+                <li><a href="#equipe">L'équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+       </div>
+    </nav>
+    <header>
+        <h2>Producteur</h2> 
+        <button><a href="#map">Vente direct ici</a></button>
+    </header>
+    <button id="scrollBtn">
+        <img src="picture/flecheBas.svg" alt="" style="width: 100%; height: 50%;transform: rotate(180deg);">
+    </button>
+    <div class="first-div color">
+        <h2>Maraicher</h2>
+        <button class="scroll-btn">
+            <img src="picture/flecheBas.svg" alt="bouton scroll to video">
+        </button>
+        <p>Maraîraicher de Père en Fille notre petit exploitation
+            à l'échelle humaine s'étend sur sept hectares de terres 
+            riches que l'on cultive avec amour.</p>
+    </div>
+    <div class="videoDiv">
+        <video id="section2" controls playsinligne height="50vw" width="50vw" poster="picture/poster.png"
+        src="picture/videoChezEstela.mp4"></video>
+    </div>
+    <div class="second-div">
+        <h2 id="galerie">Galerie photo</h2>
+        <div class="slider-visible">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Golden-3.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Pasteque1.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Melon_Jaune_Vert_HD.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Tomates_Marmande.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Concours_Pastèque-2.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Butternut_Potimarron.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Courges.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/Exploitation_Ciel.jpg);"></div>
+                    <div class="galerySlideSize swiper-slide" style="background-image: url(picture/radisEstela1\ -\ Copie.jpg);"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <button class="swiper-button-next"></button>
+                <button class="swiper-button-prev"></button>
+            </div> 
+        </div>
+    
+        <div class="altContainer">
+            <h2 id="variete">+ de 50 variétés cultivées</h2>
+            <p class="">
+                "Nous pratiquons une agriculture diversifiée au fil des saisons"
+            </p>
+            <img src="picture/cagetteLégumes.svg" alt="icone cagette fruits et légumes">
+        </div>
+    </div>
+
+
+    <section class="swiper mySwiper3 swiper3">
+
+        <div class="swiper-wrapper swiper3">
+    
+          <div class="card2 swiper-slide">
+            
+            <div class="card__content2">
+              <span class="card__title2">Mars</span>
+              <span class="card__name2">Culture de :</span>
+              <p class="card__text2">Tomate<br>Haricot<br>Fraise<br>Tulipe</p>
+              
+            </div>
+          </div>
+          <div class="card2 swiper-slide">
+            
+            <div class="card__content2">
+              <span class="card__title2">Avril</span>
+              <span class="card__name2">Culture de :</span>
+              <p class="card__text2">Tomate<br>Haricot<br>Fraise<br>Tulipe</p>
+              
+            </div>
+          </div>
+          <div class="card2 swiper-slide">
+            
+            <div class="card__content2">
+              <span class="card__title2">Mai</span>
+              <span class="card__name2">Culture de :</span>
+              <p class="card__text2">Tomate<br>Haricot<br>Fraise<br>Tulipe</p>
+              
+            </div>
+          </div>
+          <div class="card2 swiper-slide">
+            
+            <div class="card__content2">
+              <span class="card__title2">Juin</span>
+              <span class="card__name2">Culture de :</span>
+              <p class="card__text2">Tomate<br>Haricot<br>Fraise<br>Tulipe</p>
+              
+            </div>
+          </div>
+          <div class="card2 swiper-slide">
+            
+            <div class="card__content2">
+              <span class="card__title2">Juillet</span>
+              <span class="card__name2">Culture de :</span>
+              <p class="card__text2">Tomate<br>Haricot<br>Fraise<br>Tulipe</p>
+              
+            </div>
+          </div>
+          
+    
+        </div>
+        <button class="swiper-button-next"></button>
+        <button class="swiper-button-prev"></button>
+    </section>
+
+    <!-- <section>
+        <div class="relative">
+            <ul id="slider">
+                <li class="h-[100vh] relative ">
+                    <img src="picture/Choux.png" alt="photo carotte" class="object-cover h-[100vh] w-[100vw] imgSizeSlider1">
+                    <div class="absolute top-0 left-0 h-full w-full flex flex-col">
+                        <div class="flex btnSlider1">
+                            <button onclick="prev()" class="bg-white border rounded-full heightButton bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw] boutonSizeSlider">
+                            </button>
+                            <h3 class="mt-auto w-full text-center">Haricot vert</h3>
+                            <button onclick="next()" class="bg-white border rounded-full heightButton  bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw] boutonSizeSlider">    
+                            </button>
+                        </div>
+                        <p class="mb-auto mr-[23vw] ml-[23vw] text-center text">Chaque année nous essayons de nouvelles variétés de fruits et légumes afin 
+                            de proposer un choix toujours plus diversifé.</p>
+                    </div>
+                </li>
+                <li class="h-[100vh] relative hidden ">
+                    <img src="picture/Choux.png" alt="photo carotte" class="object-cover h-[100vh] w-[100vw] imgSizeSlider1">
+                    <div class="absolute top-0 left-0 h-full w-full flex flex-col">
+                        <div class="flex btnSlider1">
+                            <button onclick="prev()" class="bg-white border rounded-full heightButton bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw] boutonSizeSlider">
+                            </button>
+                            <h3 class="mt-auto w-full text-center">Aubergine</h3>
+                            <button onclick="next()" class="bg-white border rounded-full heightButton  bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw] boutonSizeSlider">    
+                            </button>
+                        </div>
+                        <p class="mb-auto mr-[23vw] ml-[23vw] text-center text">Chaque année nous essayons de nouvelles variétés de fruits et légumes afin 
+                            de proposer un choix toujours plus diversifé.</p>
+                    </div>
+                </li>
+                <li class="h-[100vh] relative hidden ">
+                    <img src="picture/Choux.png" alt="photo carotte" class="object-cover h-[100vh] w-[100vw] imgSizeSlider1">
+                    <div class="absolute top-0 left-0 h-full w-full flex flex-col">
+                        <div class="flex btnSlider1">
+                            <button onclick="prev()" class="bg-white border rounded-full heightButton bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw] boutonSizeSlider">
+                            </button>
+                            <h3 class="mt-auto w-full text-center">Tomate Marmande</h3>
+                            <button onclick="next()" class="bg-white border rounded-full heightButton  bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw] boutonSizeSlider">    
+                            </button>
+                        </div>
+                        <p class="mb-auto mr-[23vw] ml-[23vw] text-center text">Chaque année nous essayons de nouvelles variétés de fruits et légumes afin 
+                            de proposer un choix toujours plus diversifé.</p>
+                    </div>
+                </li>
+                <li class="h-[100vh] relative hidden ">
+                    <img src="picture/Choux.png" alt="photo carotte" class="object-cover h-[100vh] w-[100vw] imgSizeSlider1">
+                    <div class="absolute top-0 left-0 h-full w-full flex flex-col">
+                        <div class="flex btnSlider1">
+                            <button onclick="prev()" class="bg-white border rounded-full heightButton bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw] boutonSizeSlider">
+                            </button>
+                            <h3 class="mt-auto w-full text-center">Melon jaune & vert</h3>
+                            <button onclick="next()" class="bg-white border rounded-full heightButton  bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw] boutonSizeSlider">    
+                            </button>
+                        </div>
+                        <p class="mb-auto mr-[23vw] ml-[23vw] text-center text">Chaque année nous essayons de nouvelles variétés de fruits et légumes afin 
+                            de proposer un choix toujours plus diversifé.</p>
+                    </div>
+                </li>
+                <li class="h-[100vh] relative hidden ">
+                    <img src="picture/Choux.png" alt="photo carotte" class="object-cover h-[100vh] w-[100vw] imgSizeSlider1">
+                    <div class="absolute top-0 left-0 h-full w-full flex flex-col">
+                        <div class="flex btnSlider1">
+                            <button onclick="prev()" class="bg-white border rounded-full heightButton bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw] boutonSizeSlider">
+                            </button>
+                            <h3 class="mt-auto w-full text-center">Pastèque</h3>
+                            <button onclick="next()" class="bg-white border rounded-full heightButton  bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw] boutonSizeSlider">    
+                            </button>
+                        </div>
+                        <p class="mb-auto mr-[23vw] ml-[23vw] text-center text">Chaque année nous essayons de nouvelles variétés de fruits et légumes afin 
+                            de proposer un choix toujours plus diversifé.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+    <div class="relative background-img">
+        <img src="picture/badgeAgricultureRaisonnee.svg" alt="badge agriculture raisonnée" class="badgeAgricultureRaisonnee">
+        <img src="picture/icon-grow.svg" alt="" class="icon-grow">
+    </div>
+    <section>
+        <div class="secondSection">
+            <p>
+                Nous pratiquons une agriculture raisonnée
+                À l’opposé d’une exploitation maraîchere intensive en 
+                monoculture, notre méthode de culture diversifié 
+                permet d’apporter biodiversité et équilibre dans nos 
+                cultures. 
+                Ainsi nous ne sommes pas dépendent des produits 
+                phytosanitaires et pesticides, destructeurs de toutes 
+                vies.
+                Nous posons également des bâches sur nos sols, dans 
+                lesquels des trous sont près-percés afin d’y planter les 
+                plants de fruits et légumes.
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="title-div">
+            <h2 id="equipe" class="text-center titre-bg">l'equipe</h2>
+        </div>
+        <!-- <div class="relative bg-main">
+            <ul id="slider2">
+                <li class="h-[60vh] w-[100vw] relative flex li-slider ">
+                    <img src="picture/radisEstela1 - Copie.jpg" alt="photo carotte" class="object-cover imgSlider2Size">
+                    <div class="div-slider">
+                        <div class="btn-title">
+                            <button onclick="prev2()" class="bg-white border rounded-full btn bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw]">
+                            </button>
+                            <h3 class="h2-slider">La fille</h3>
+                            <button onclick="next2()" class="bg-white border rounded-full btn bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw]">
+                                
+                        </button>
+                        </div>
+                        
+                        <p class="p-slider">Créatrice du point de vente directe. Elle jongle entre vente et ramassage des fruits et légumes.
+                            Point fort : Souriante et ceuilleuse de fraises hors normes. </p>
+                    </div>
+                </li>
+                <li class="h-[60vh] w-[100vw] relative flex li-slider hidden ">
+                    <img src="https://cdn.pixabay.com/photo/2014/04/23/09/53/farmer-330388_960_720.jpg" alt="photo carotte" class="object-cover imgSlider2Size">
+                    <div class="div-slider">
+                        <div class="btn-title">
+                            <button onclick="prev2()" class="bg-white border rounded-full btn bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw]">
+                            </button>
+                            <h3 class="h2-slider">Le Papa</h3>
+                            <button onclick="next2()" class="bg-white border rounded-full btn bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw]">
+                                
+                        </button>
+                        </div>
+                        
+                        <p class="p-slider">Créatrice du point de vente directe. Elle jongle entre vente et ramassage des fruits et légumes.
+                            Point fort : Souriante et ceuilleuse de fraises hors normes. </p>
+                    </div>
+                </li>
+                <li class="h-[60vh] w-[100vw] relative flex li-slider hidden ">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/11/15/43/woman-1509956_960_720.jpg" alt="photo carotte" class="object-cover imgSlider2Size">
+                    <div class="div-slider">
+                        <div class="btn-title">
+                            <button onclick="prev2()" class="bg-white border rounded-full btn bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw]">
+                            </button>
+                            <h3 class="h2-slider">La Maman</h3>
+                            <button onclick="next2()" class="bg-white border rounded-full btn bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw]">
+                                
+                        </button>
+                        </div>
+                        
+                        <p class="p-slider">Créatrice du point de vente directe. Elle jongle entre vente et ramassage des fruits et légumes.
+                            Point fort : Souriante et ceuilleuse de fraises hors normes. </p>
+                    </div>
+                </li>
+                <li class="h-[60vh] w-[100vw] relative flex li-slider hidden ">
+                    <img src="https://scontent-mrs2-1.xx.fbcdn.net/v/t1.18169-9/216287_245442818932231_869595337_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=h94GAge1QDUAX-sn2lj&_nc_ht=scontent-mrs2-1.xx&oh=00_AfCYsT6_AEdyvZK49XEALDr65VEix1AGPZsk9-Or7aZB_w&oe=64196CDB" alt="photo carotte" class="object-cover imgSlider2Size">
+                    <div class="div-slider">
+                        <div class="btn-title">
+                            <button onclick="prev2()" class="bg-white border rounded-full btn bg-opacity-0">
+                                <img src="picture/flecheGauche.svg" alt="slider" class="w-[3vw]">
+                            </button>
+                            <h3 class="h2-slider">Le gendre</h3>
+                            <button onclick="next2()" class="bg-white border rounded-full btn bg-opacity-0 ">
+                                <img src="picture/flecheDroite.svg" alt="slider" class="w-[3vw]">
+                                
+                        </button>
+                        </div>
+                        
+                        <p class="p-slider">Créatrice du point de vente directe. Elle jongle entre vente et ramassage des fruits et légumes.
+                            Point fort : Souriante et ceuilleuse de fraises hors normes. </p>
+                    </div>
+                </li>
+            </ul>        
+        </div> -->
+        
+    </section> 
+    <section class="swiper mySwiper2">
+
+        <div class="swiper-wrapper swiper1">
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="picture/radisEstela1 - Copie.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">La fille</span>
+              <span class="card__name">Estela</span>
+              <p class="card__text">Créatrice du point de vente directe. Elle jongle entre vente et ramassage des fruits et légumes. Point fort : Souriante et ceuilleuse de fraises hors normes.</p>
+              
+            </div>
+          </div>
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="https://cdn.pixabay.com/photo/2014/04/23/09/53/farmer-330388_960_720.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">Le père</span>
+              <span class="card__name">Francisco Castro vilares</span>
+              <p class="card__text">Il a acquis ces terres en 1994 et a depuis travaillé dur pour en faire une exploitation 
+                agricole prospère et respectueuse de l'environnement.</p>
+              
+            </div>
+          </div>
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="https://cdn.pixabay.com/photo/2016/07/11/15/43/woman-1509956_960_720.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">La mère</span>
+              <span class="card__name">Zelinda Castro Vilares</span>
+              <p class="card__text">Elle est la cheville ouvrière de l'entreprise
+                 Son expérience et sa connaissance des opérations quotidiennes de l'exploitation sont très appréciées de tous.</p>
+            
+            </div>
+          </div>
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="https://scontent-mrs2-1.xx.fbcdn.net/v/t1.18169-9/216287_245442818932231_869595337_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=h94GAge1QDUAX-sn2lj&_nc_ht=scontent-mrs2-1.xx&oh=00_AfCYsT6_AEdyvZK49XEALDr65VEix1AGPZsk9-Or7aZB_w&oe=64196CDB"" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">Le gendre</span>
+              <span class="card__name">Jules</span>
+              <p class="card__text">Jules travail avec Estella sur le point de vente et aide également sur l'exploitation maraîchère le reste du temps. 
+                Il est particulièrement doué pour la communication et l'utilisation des réseaux sociaux, où il n'hésite pas à mettre en avant les produits 
+                frais et savoureux de l'entreprise. </p>
+              
+            </div>
+          </div>  
+        </div>
+        <button class="swiper-button-next"></button>
+        <button class="swiper-button-prev"></button>
+      </section>
+    <div class="contact">
+        <img id="avis" src="picture/stand.svg" alt="stand icone" class="pictoStand">
+        <h2 id="contact">horaires</h2>
+        <div class="flex colums">
+            <p>Lundi au Vendredi<br>9h - 12h30 / 16h - 19h</p>
+            <p>Samedi<br>9h - 12h30 / 16h - 18h</p>
+        </div>
+
+        <h2>Contact</h2>
+        <a href="tel:+33618817412">06 18 81 72 14</a><br>
+        <a href="mailto:chezestela@gmail.com">chezestela@gmail.com</a>
+        <h2 id="map">Suivez-nous</h2>
+        <div class="pictoContainer">
+            <a href="http://"><img src="picture/Facebook.png" alt="Logo facebook" class="logoSize"></a>
+            <a href="http://"><img src="picture/Instagram.png" alt="Logo Instagram" class="logoSize"></a>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.5941562779276!2d3.941235615722594!3d43.635805261572905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a58482c9779f%3A0xd53f6de08f92ac64!2sChez%20Estela!5e0!3m2!1sfr!2sfr!4v1675698229437!5m2!1sfr!2sfr" 
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="overflow-hidden">
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-338c1389-fd7f-4182-b505-34002d7a4391 p-b"></div>
+        </div>
+    </div>
+    <footer class="footer-container">
+        <div class="menu-container">
+            <a href="#galerie">Galerie</a>
+            <a href="#contact">Contact</a>
+            <a href="#avis">Avis</a>
+        </div>
+        <div class="menu-container">
+            <a href="#equipe">L'équipe</a>
+            <a href="#variete">variétés cultivées</a>
+        </div>
+        <div class="politique">
+            <a href="">Condition d'utilisation</a>
+            <a href="">Charte de confidentialité</a>
+        </div>
+        <div class="reseaux">
+            <a href="">Nous suivres sur Facebook</a>
+            <a href="">Nous suivres sur Instagram</a>
+        </div>
+
+    </footer>
+ 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="swiper-script.js"></script>
+    <script src="script.js"></script>
+
+    <script>var swiper = new Swiper(".mySwiper3", {
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+          },
+        coverflow: {
+        rotate: 00,
+        stretch: 0,
+         depth: 600,
+        modifier: 1,
+        slideShadows: true,
+        },
+        loop: true,
+     }) ;
+        </script>
+    
+    <script>var swiper = new Swiper(".mySwiper2", {
+    pagination: '.swiper-pagination',
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+      },
+    coverflow: {
+    rotate: 00,
+    stretch: 0,
+     depth: 600,
+    modifier: 1,
+    slideShadows: true,
+    },
+    loop: true,
+ }) ;
+    </script>
+</body>
+</html>
