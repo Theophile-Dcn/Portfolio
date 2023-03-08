@@ -59,7 +59,7 @@ btn1.addEventListener('click', () => {
 // };
 
 // Animation badge 
-const ratio = .9
+const ratio = .4
 const options = {
     root: null,
     rootMargin: "0px",
